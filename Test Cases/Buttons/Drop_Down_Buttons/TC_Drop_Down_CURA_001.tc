@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Drop_Down_CURA_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0f88b6b0-a9c5-426a-b263-e1c253aed66a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cd94b730-4c97-4c79-97bf-4bc3017e3df2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Hongkong CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>cd94b730-4c97-4c79-97bf-4bc3017e3df2</id>
+      <masked>false</masked>
+      <name>Facility</name>
+   </variable>
+</TestCaseEntity>
