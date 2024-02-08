@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DDT_Katalon_Login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>d3eb63c8-1b9b-472d-af5e-aebc5141feef</testSuiteGuid>
+   <testCaseLink>
+      <guid>39aea999-d5f7-4e4f-82f4-9333b43da486</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d459aa2d-a018-4e93-b5bd-da999e92fe4c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Katalon_Login_excel_folder</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>d459aa2d-a018-4e93-b5bd-da999e92fe4c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>b30e0c73-0816-4e6a-a97a-39dc7c02d1ae</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d459aa2d-a018-4e93-b5bd-da999e92fe4c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>daa25294-dcf7-4179-b018-d73a4d7cd915</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
