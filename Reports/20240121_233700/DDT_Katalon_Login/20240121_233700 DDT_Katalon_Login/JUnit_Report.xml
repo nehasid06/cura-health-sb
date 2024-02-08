@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DDT_Katalon_Login" time="213.26" tests="14" failures="0" errors="0">
+   <testsuite name="DDT_Katalon_Login" tests="14" failures="0" errors="0" time="213.26" skipped="0" timestamp="21-01-2024T23:37:10" hostname="neha siddiqui - DESKTOP-I165DKA" id="Test Suites/DDT_Katalon_Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\xampp\\htdocs\\software testing internship\\CURA_Automation_Testing_SB\\Reports\\20240121_233700\\DDT_Katalon_Login\\20240121_233700"/>
+         <property name="logFiles" value="C:\\xampp\\htdocs\\software testing internship\\CURA_Automation_Testing_SB\\Reports\\20240121_233700\\DDT_Katalon_Login\\20240121_233700\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="neha siddiqui - DESKTOP-I165DKA"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="10.0.0.5"/>
+         <property name="sessionId" value="e81fb6f1414d972038690b47ac17abe0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001" time="25.658" classname="Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001" status="PASSED">
+         <system-out><![CDATA[21-01-2024T23:37:10 - [TEST_CASE][PASSED] - Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001: Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001
+
+21-01-2024T23:37:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-01-2024T23:37:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-01-2024T23:37:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-01-2024T23:37:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-01-2024T23:37:21 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-01-2024T23:37:26 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-01-2024T23:37:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+21-01-2024T23:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+21-01-2024T23:37:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username"), username): Text 'John Doe' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username'
+
+21-01-2024T23:37:30 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username'
+
+21-01-2024T23:37:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password"), password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password'
+
+21-01-2024T23:37:31 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password'
+
+21-01-2024T23:37:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+21-01-2024T23:37:35 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+21-01-2024T23:37:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-01-2024T23:37:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001" time="46.454" classname="Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001" status="PASSED">
+         <system-out><![CDATA[21-01-2024T23:37:36 - [TEST_CASE][PASSED] - Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001: Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001
+
+21-01-2024T23:37:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-01-2024T23:37:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-01-2024T23:37:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-01-2024T23:37:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-01-2024T23:37:39 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-01-2024T23:37:48 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-01-2024T23:37:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+21-01-2024T23:37:52 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+21-01-2024T23:37:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username"), username): Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username'
+
+21-01-2024T23:37:58 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username'
+
+21-01-2024T23:37:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password"), password): Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password'
+
+21-01-2024T23:38:00 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password'
+
+21-01-2024T23:38:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+21-01-2024T23:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+21-01-2024T23:38:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-01-2024T23:38:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001" time="16.29" classname="Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001" status="PASSED">
+         <system-out><![CDATA[21-01-2024T23:38:23 - [TEST_CASE][PASSED] - Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001: Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001
+
+21-01-2024T23:38:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-01-2024T23:38:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-01-2024T23:38:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-01-2024T23:38:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-01-2024T23:38:26 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-01-2024T23:38:33 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-01-2024T23:38:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+21-01-2024T23:38:34 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+21-01-2024T23:38:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username"), username): Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username'
+
+21-01-2024T23:38:35 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username'
+
+21-01-2024T23:38:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password"), password): Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password'
+
+21-01-2024T23:38:36 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password'
+
+21-01-2024T23:38:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+21-01-2024T23:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+21-01-2024T23:38:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-01-2024T23:38:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001" time="11.59" classname="Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001" status="PASSED">
+         <system-out><![CDATA[21-01-2024T23:38:39 - [TEST_CASE][PASSED] - Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001: Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001
+
+21-01-2024T23:38:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-01-2024T23:38:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-01-2024T23:38:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-01-2024T23:38:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-01-2024T23:38:41 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-01-2024T23:38:46 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-01-2024T23:38:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+21-01-2024T23:38:47 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+21-01-2024T23:38:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username"), username): Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username'
+
+21-01-2024T23:38:48 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username'
+
+21-01-2024T23:38:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password"), password): Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password'
+
+21-01-2024T23:38:49 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password'
+
+21-01-2024T23:38:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+21-01-2024T23:38:51 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+21-01-2024T23:38:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-01-2024T23:38:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001" time="11.278" classname="Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001" status="PASSED">
+         <system-out><![CDATA[21-01-2024T23:38:51 - [TEST_CASE][PASSED] - Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001: Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001
+
+21-01-2024T23:38:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-01-2024T23:38:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-01-2024T23:38:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-01-2024T23:38:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-01-2024T23:38:53 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-01-2024T23:38:58 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-01-2024T23:38:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+21-01-2024T23:38:59 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+21-01-2024T23:38:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username"), username): Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username'
+
+21-01-2024T23:39:00 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username'
+
+21-01-2024T23:39:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password"), password): Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password'
+
+21-01-2024T23:39:01 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password'
+
+21-01-2024T23:39:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+21-01-2024T23:39:02 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+21-01-2024T23:39:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-01-2024T23:39:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001" time="9.461" classname="Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001" status="PASSED">
+         <system-out><![CDATA[21-01-2024T23:39:02 - [TEST_CASE][PASSED] - Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001: Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001
+
+21-01-2024T23:39:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-01-2024T23:39:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-01-2024T23:39:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-01-2024T23:39:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-01-2024T23:39:04 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-01-2024T23:39:08 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-01-2024T23:39:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+21-01-2024T23:39:09 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+21-01-2024T23:39:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username"), username): Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username'
+
+21-01-2024T23:39:10 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username'
+
+21-01-2024T23:39:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password"), password): Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password'
+
+21-01-2024T23:39:10 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password'
+
+21-01-2024T23:39:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+21-01-2024T23:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+21-01-2024T23:39:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-01-2024T23:39:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001" time="10.007" classname="Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001" status="PASSED">
+         <system-out><![CDATA[21-01-2024T23:39:12 - [TEST_CASE][PASSED] - Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001: Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001
+
+21-01-2024T23:39:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-01-2024T23:39:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-01-2024T23:39:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-01-2024T23:39:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-01-2024T23:39:13 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-01-2024T23:39:18 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-01-2024T23:39:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+21-01-2024T23:39:19 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+21-01-2024T23:39:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username"), username): Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username'
+
+21-01-2024T23:39:20 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username'
+
+21-01-2024T23:39:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password"), password): Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password'
+
+21-01-2024T23:39:20 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password'
+
+21-01-2024T23:39:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+21-01-2024T23:39:22 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+21-01-2024T23:39:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-01-2024T23:39:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001" time="10.029" classname="Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001" status="PASSED">
+         <system-out><![CDATA[21-01-2024T23:39:22 - [TEST_CASE][PASSED] - Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001: Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001
+
+21-01-2024T23:39:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-01-2024T23:39:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-01-2024T23:39:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-01-2024T23:39:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-01-2024T23:39:23 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-01-2024T23:39:28 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-01-2024T23:39:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+21-01-2024T23:39:29 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+21-01-2024T23:39:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username"), username): Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username'
+
+21-01-2024T23:39:30 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username'
+
+21-01-2024T23:39:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password"), password): Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password'
+
+21-01-2024T23:39:30 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password'
+
+21-01-2024T23:39:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+21-01-2024T23:39:32 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+21-01-2024T23:39:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-01-2024T23:39:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001" time="16.99" classname="Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001" status="PASSED">
+         <system-out><![CDATA[21-01-2024T23:39:32 - [TEST_CASE][PASSED] - Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001: Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001
+
+21-01-2024T23:39:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-01-2024T23:39:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-01-2024T23:39:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-01-2024T23:39:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-01-2024T23:39:34 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-01-2024T23:39:42 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-01-2024T23:39:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+21-01-2024T23:39:43 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+21-01-2024T23:39:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username"), username): Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username'
+
+21-01-2024T23:39:43 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username'
+
+21-01-2024T23:39:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password"), password): Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password'
+
+21-01-2024T23:39:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password'
+
+21-01-2024T23:39:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+21-01-2024T23:39:45 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+21-01-2024T23:39:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-01-2024T23:39:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001" time="17.53" classname="Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001" status="PASSED">
+         <system-out><![CDATA[21-01-2024T23:39:49 - [TEST_CASE][PASSED] - Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001: Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001
+
+21-01-2024T23:39:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-01-2024T23:39:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-01-2024T23:39:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-01-2024T23:39:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-01-2024T23:39:51 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-01-2024T23:40:01 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-01-2024T23:40:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+21-01-2024T23:40:02 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+21-01-2024T23:40:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username"), username): Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username'
+
+21-01-2024T23:40:03 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username'
+
+21-01-2024T23:40:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password"), password): Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password'
+
+21-01-2024T23:40:03 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password'
+
+21-01-2024T23:40:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+21-01-2024T23:40:04 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+21-01-2024T23:40:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-01-2024T23:40:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001" time="8.709" classname="Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001" status="PASSED">
+         <system-out><![CDATA[21-01-2024T23:40:07 - [TEST_CASE][PASSED] - Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001: Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001
+
+21-01-2024T23:40:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-01-2024T23:40:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-01-2024T23:40:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-01-2024T23:40:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-01-2024T23:40:08 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-01-2024T23:40:12 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-01-2024T23:40:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+21-01-2024T23:40:13 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+21-01-2024T23:40:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username"), username): Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username'
+
+21-01-2024T23:40:14 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username'
+
+21-01-2024T23:40:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password"), password): Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password'
+
+21-01-2024T23:40:14 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password'
+
+21-01-2024T23:40:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+21-01-2024T23:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+21-01-2024T23:40:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-01-2024T23:40:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001" time="9.282" classname="Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001" status="PASSED">
+         <system-out><![CDATA[21-01-2024T23:40:16 - [TEST_CASE][PASSED] - Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001: Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001
+
+21-01-2024T23:40:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-01-2024T23:40:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-01-2024T23:40:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-01-2024T23:40:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-01-2024T23:40:17 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-01-2024T23:40:21 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-01-2024T23:40:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+21-01-2024T23:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+21-01-2024T23:40:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username"), username): Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username'
+
+21-01-2024T23:40:23 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username'
+
+21-01-2024T23:40:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password"), password): Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password'
+
+21-01-2024T23:40:23 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password'
+
+21-01-2024T23:40:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+21-01-2024T23:40:24 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+21-01-2024T23:40:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-01-2024T23:40:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001" time="9.139" classname="Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001" status="PASSED">
+         <system-out><![CDATA[21-01-2024T23:40:25 - [TEST_CASE][PASSED] - Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001: Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001
+
+21-01-2024T23:40:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-01-2024T23:40:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-01-2024T23:40:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-01-2024T23:40:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-01-2024T23:40:27 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-01-2024T23:40:30 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-01-2024T23:40:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+21-01-2024T23:40:31 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+21-01-2024T23:40:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username"), username): Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username'
+
+21-01-2024T23:40:32 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username'
+
+21-01-2024T23:40:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password"), password): Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password'
+
+21-01-2024T23:40:33 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password'
+
+21-01-2024T23:40:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+21-01-2024T23:40:34 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+21-01-2024T23:40:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-01-2024T23:40:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001" time="9.239" classname="Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001" status="PASSED">
+         <system-out><![CDATA[21-01-2024T23:40:34 - [TEST_CASE][PASSED] - Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001: Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001
+
+21-01-2024T23:40:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-01-2024T23:40:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-01-2024T23:40:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-01-2024T23:40:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-01-2024T23:40:35 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-01-2024T23:40:39 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+21-01-2024T23:40:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+21-01-2024T23:40:40 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+21-01-2024T23:40:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username"), username): Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username'
+
+21-01-2024T23:40:41 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_username'
+
+21-01-2024T23:40:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password"), password): Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password'
+
+21-01-2024T23:40:42 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/input_password'
+
+21-01-2024T23:40:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+21-01-2024T23:40:43 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_CURA_1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+21-01-2024T23:40:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-01-2024T23:40:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-01-2024T23:37:10 - [TEST_SUITE][PASSED] - DDT_Katalon_Login: Test Cases/Data_Driven_Testing/TC_katalon_login_Internal_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC_TL_MakeAppoitment" time="43.805" tests="1" failures="0" errors="0">
+   <testsuite name="TC_TL_MakeAppoitment" tests="1" failures="0" errors="0" time="43.805" skipped="0" timestamp="27-01-2024T20:41:47" hostname="neha siddiqui - DESKTOP-I165DKA" id="Test Suites/TC_TL_MakeAppoitment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\xampp\\htdocs\\software testing internship\\CURA_Automation_Testing_SB\\Reports\\20240127_204138\\TC_TL_MakeAppoitment\\20240127_204138"/>
+         <property name="logFiles" value="C:\\xampp\\htdocs\\software testing internship\\CURA_Automation_Testing_SB\\Reports\\20240127_204138\\TC_TL_MakeAppoitment\\20240127_204138\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="neha siddiqui - DESKTOP-I165DKA"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="10.0.0.6"/>
+         <property name="sessionId" value="25a2e89161e8417b40589023dabe81ea"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Test Listener/TC_TL_AppoitmetConfirmation_001" time="14.591" classname="Test Cases/Test Listener/TC_TL_AppoitmetConfirmation_001" status="PASSED">
+         <system-out><![CDATA[27-01-2024T20:42:16 - [TEST_CASE][PASSED] - Test Cases/Test Listener/TC_TL_AppoitmetConfirmation_001: Test Cases/Test Listener/TC_TL_AppoitmetConfirmation_001
+
+27-01-2024T20:42:16 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+27-01-2024T20:42:17 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+27-01-2024T20:42:21 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+27-01-2024T20:42:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+27-01-2024T20:42:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+27-01-2024T20:42:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_username'
+
+27-01-2024T20:42:23 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_username'
+
+27-01-2024T20:42:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_password'
+
+27-01-2024T20:42:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_password'
+
+27-01-2024T20:42:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+27-01-2024T20:42:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+27-01-2024T20:42:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+27-01-2024T20:42:26 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+27-01-2024T20:42:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_programs")): Object: 'Object Repository/Page_CURA Healthcare Service/input_programs' is clicked on
+
+27-01-2024T20:42:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_programs' is clicked on
+
+27-01-2024T20:42:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar")): Object: 'Object Repository/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+27-01-2024T20:42:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+27-01-2024T20:42:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/td_7")): Object: 'Object Repository/Page_CURA Healthcare Service/td_7' is clicked on
+
+27-01-2024T20:42:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/td_7' is clicked on
+
+27-01-2024T20:42:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/textarea_comment"), "xdfgchgv"): Text 'xdfgchgv' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_comment'
+
+27-01-2024T20:42:29 - [MESSAGE][PASSED] - Text 'xdfgchgv' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_comment'
+
+27-01-2024T20:42:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+27-01-2024T20:42:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+27-01-2024T20:42:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation")): Object: 'Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation' is clicked on
+
+27-01-2024T20:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation' is clicked on
+
+27-01-2024T20:42:31 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-01-2024T20:41:47 - [TEST_SUITE][PASSED] - TC_TL_MakeAppoitment: Test Cases/Test Listener/TC_TL_AppoitmetConfirmation_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
