@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>CURA_Automation_Testing_SB</name>
+   <name>CURA_Automation_Testing_SB_Github</name>
    <tag></tag>
    <UUID>1ce0deb7-530f-4e6f-9af3-f7060fe69670</UUID>
    <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\xampp\htdocs\software testing internship\CURA_Automation_Testing_SB\CURA_Automation_Testing_SB.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
